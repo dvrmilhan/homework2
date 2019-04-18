@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Musics</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>        
+        <style>
+            body{
+              font-family: serif;
+              background-color: wheat;
+            }
+            .navbar-brand{
+              color:grey;
+              font-family: serif;
+            }
+            .container-audio {
+            width: 66%;
+            height: auto;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #eee;
+            color: #444;
+            margin: 20px auto;
+            overflow: hidden;
+            }
+            audio {
+            width:100%;
+            }
+        </style>
+    </head>
+    <body>  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block"></span>
+                <a class="navbar-brand" href="index2.html"> My Web Site</a>
+            
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7" style="background-color:rgb(202, 200, 195);"">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-center" id="myNavbar7">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"href="film2.html">  Films </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="books2.html">Books  </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"  href="musics2.html">Musics </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="usefullink2.html">Useful Links </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"href="contactme2.html"> Contact Me </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"href="registration2.html">Register </a></li>
+                  
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">   <h1 style="color:black; margin-top: 50px;"> My Favorite Music </h1> </div>
+                <div id="container-audio" class="col-sm-12 col-12 col-md-12 col-lg-4 container " style="margin-top:50px; margin-bottom: 30px; text-align: center;"><img src="image/musics1.jpg" style="width:100%; height:100%; margin-top: 40px; margin-bottom: 20px;"></br>
+                    <audio controls  loop autoplay>
+                        <source src="The Neighbourhood - Sweater Weather.ogg" type="audio/ogg">
+                        <source src="The Neighbourhood - Sweater Weather.mp3" type="audio/mpeg">
+                        Tarayıcınız audio elementini desteklemiyor.
+                    </audio>
+                </div></br>
+
+                <div class="col-sm-12 col-12 col-md-12 col-lg-8 container " style="margin-top:100px;">
+                    </br></br></br><h4 style="text-align:left; margin-top: 20px; color: gray;"><b>The Neighbourhood - Sweater Weather</b></h4></br>
+                    <p style="text-align: justify;">
+                        The Neighbourhood is an American band formed in 2011. Its members include Jesse Rutherford, Jeremy Freedman, Zach Abels, Mikey Margott, and Brandon Fried. More information can be found here.</br>
+                        Formed in Los Angeles in 2011, the band centers around lead singer Jesse James Rutherford, guitarists Jeremy Freedman and Zach Abels, bassist Michael Margott, and drummer Brandon Fried. In 2012, the Neighbourhood released the EP I'm Sorry..., featuring such singles as "Sweater Weather" and "Female Robbery."
+                    </p><br>
+                    <p style="margin-top:20px; margin-bottom: 50px; text-align: center;"><a href="https://thenbhd.com" style="color:gray;">Learn More About Musician</a></p>
+                </div></br>
+            </div>
+        </div>
+    </body>
+</html>
